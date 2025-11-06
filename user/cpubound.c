@@ -131,7 +131,6 @@ main(int argc, char *argv[])
     printf("\nProcess Statistics:\n");
     printf("  PID: %d\n", info.pid);
     printf("  Name: %s\n", info.name);
-    printf("  Priority Queue: %d\n", info.priority);
     printf("  Total CPU Ticks: %d\n", (int)info.total_ticks);
     printf("  Times Scheduled: %d\n", (int)info.num_scheduled);
   } else {
